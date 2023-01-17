@@ -1,0 +1,15 @@
+
+.stars_wrapper{
+    display: flex;
+    width: 150px;
+    margin:0 auto;
+    justify-content: space-between;
+}
+
+.active {
+    color: orange;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}

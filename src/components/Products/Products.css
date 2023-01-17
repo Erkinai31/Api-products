@@ -1,0 +1,30 @@
+
+.products_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:4rem;
+    width:940px;
+    margin:40px auto;
+    border: 5px solid rgb(4, 62, 19);
+    border-radius: 3rem;
+    padding: 5rem;
+}
+.content_elem{
+    border: 2px solid rgb(3, 56, 4);
+    border-radius:4rem;
+    min-height: 200px;
+    padding: 20px;
+    width: 100%;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(166, 239, 196, 0.599);
+
+}
+.link_title{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size:1.5em;
+}

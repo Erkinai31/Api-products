@@ -1,0 +1,36 @@
+.about_product{
+    border: 5px solid rgb(15, 15, 16);
+    border-radius: 3rem;
+    padding:50px;
+    width:450px;
+    margin:40px auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    justify-content: space-around;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.defines{
+    color:rgb(14, 14, 16);
+    font-weight: bold;
+}
+.description{
+    line-height: 25px;
+}
+.title{
+    font-style: italic;
+    font-size: 24px;
+    color:rgb(4, 29, 187);
+    font-weight: bold;
+}
+.backsite{
+    background-color: rgb(77, 38, 114);
+    color:azure;
+    padding:15px;
+    width: 90px;
+    margin:20px;
+    font-size: 1em;
+}
