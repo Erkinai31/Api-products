@@ -19,7 +19,7 @@ function Store() {
 
   return (
     <div>
-      <button onClick={() => backsite()} className='backsite'>BACK</button>
+      <button onClick={() => backsite()}>BACK</button>
       {product.id ? (
         <div className="about_product">
           <h2 className="title">{product.title}</h2>
